@@ -1,0 +1,9 @@
+{% autoescape off %}
+Hii There... You have new Message from {{name}}
+Email : {{email}}
+Subject of message : {{subject}}
+Message : {{message}}
+
+{% endautoescape %}
+
+{% comment %} http://{{domain}}{% url 'activate' uidb64=uid token=token %} {% endcomment %}
